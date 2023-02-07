@@ -1,0 +1,54 @@
+body {
+    color: #222;
+    padding: 0;
+    margin: 0;
+}
+
+.cuadrado {
+    padding: 100px 200px;
+    background: #ccc;
+    margin: 50px;
+    outline: 4px dashed #aaa;
+}
+
+.circulo {
+border-radius: 50%;
+padding: 40px;
+margin: 10px;
+background: red;
+display: inline-block;
+} 
+
+.texturas{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.texturas div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+}
+.textura1{
+    background: url("textura1.jpg");
+}
+.textura2{
+    background: url("textura2.jpg");;
+}
+.textura3{
+    background: url("textura3.jpg");;
+}
+
+.zona{
+    margin: 10px;
+    background: #ddd;
+    height: 200px;
+}
+
+
+
+
+
+
